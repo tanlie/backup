@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.3/style/weui.min.css">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!--手机端-->
+    <link rel="stylesheet" type="text/css" href="bei-phone.css" media="screen and (max-width: 960px)"/>
+	<!--电脑端-->
+    <link rel="stylesheet" type="text/css" href="bei-pc.css" media="screen and (min-width: 960px)"/>
+
+    <title>MemberInfo</title>
+
+</head>
+<body>
+    <div class="box12" style="width:100%;margin:0 auto;">
+        <div class="img-box22">
+            <img id="img" src="beipiao-bg2.jpg" style="width:100%; ">
+        </div>
+    </div>
+
+
+	<div>	
+        <div class="weui-cells">
+            <div class="weui-cell sub_title">
+                <div class="weui-cell__bd">万象云端配置信息</div>
+            </div>
+            <div class="weui-cell first">
+                <div class="weui-cell__bd">卡号</div>
+                <div class="weui-cell__ft" id="mem_no"></div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__bd">姓名</div>
+                <div class="weui-cell__ft" id="mem_name"></div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__bd">性别</div>
+                <div class="weui-cell__ft" id="mem_sex"></div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__bd">年龄</div>
+                <div class="weui-cell__ft" id="mem_age"></div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__bd">级别</div>
+                <div class="weui-cell__ft" id="mem_sort"></div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__bd tishi" id="mem_hint">提示信息...</div>
+            </div>
+            <div class="weui-cell" id="unbind">
+                <div class="weui-cell__bd">当前绑定的ID为: <span id="device_id"></span></div>
+                <span class="btn btn-success" id="cancleBind">解除绑定</span>
+            </div>
+        </div>
+    </div>
+<script src='https://cdn.bootcss.com/socket.io/2.0.3/socket.io.js'></script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+<script>
+$(function (){
+             
+  var device_id =  localStorage.getItem('device_id');
+  if(!device_id){
+      window.location.href="login.html";
+    }
+  
+    $("#device_id").html(device_id);
+  
+    var socket = io('http://47.92.218.135:3308');
+    socket.on('connect', function(){
+        console.log('connect success');
+    });
+    socket.on('chat',function(data){
+                var data = JSON.parse(data);
+		   console.log(data);
+                //var device_id = localStorage.getItem('device_id');
+                 if( data.device_id == device_id){
+                       // console.log(data);
+                         $("#img").attr("src",data.img_url);
+                         $("#mem_no").html(data.mem_no);
+                         $("#mem_name").html(data.mem_name);
+                         $("#mem_sex").html(data.mem_sex);
+                         $("#mem_age").html(data.mem_age);
+                         $("#mem_sort").html(data.mem_sort);
+			 $("#mem_hint").html(data.mem_hint);
+			$("#unbind").css("display","none");
+                         setTimeout(function(){
+                         var url = "beipiao-bg2.jpg";
+                         $("#img").attr("src",url);
+                         $("#mem_no").html('');
+                         $("#mem_name").html('');
+                         $("#mem_sex").html('');
+                         $("#mem_age").html('');
+                         $("#mem_sort").html('');	
+			 $("#mem_hint").html("提示信息...");
+			$("#unbind").css("display","inline");
+                 },10000);
+                }
+    });
+  
+    $("#cancleBind").on('click',function(){
+        localStorage.clear();
+	window.location.href="login.html";
+    });
+
+})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*
+
+.img-box{
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    overflow: hidden;
+}
+*/
+/*
+.img-box img{
+    width: 100%;
+    height:100%;	   
+}
+*/
+
+
+.weui-cells{
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    font-size: 13px;
+}
+.weui-cells:active{
+    background-color: rgba(0,0,0,0.9);
+}
+.weui-cell{
+    padding: 5px 15px;
+}
+.weui-cells .first::before{
+    display: none;
+}
+.weui-cells .sub_title{
+    display: none;
+}
+.weui-cells:after, .weui-cells:before{
+    display: none;
+}
+.weui-cells:after, .weui-cells:after{
+    display: none;
+}
+.weui-cell__ft{
+    color: #FF6600;
+}
+.tishi{
+    color: red;
+    font-size: 13px;
+}
