@@ -1,0 +1,1197 @@
+Workerman[tcp_server.php] start in DEBUG mode
+---------------------------------------- WORKERMAN -----------------------------------------
+Workerman version:3.5.18          PHP version:7.2.14
+----------------------------------------- WORKERS ------------------------------------------
+proto   user            worker          listen                processes    status           
+tcp     root            none            tcp://0.0.0.0:3309    1             [OK]            
+--------------------------------------------------------------------------------------------
+Press Ctrl+C to stop. Start success.
+PHP Notice:  Undefined index: W0043000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0043000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #162)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#10 {main}
+Worker[23994] process terminated
+worker[none:23994] exit with status 64000
+PHP Notice:  Undefined index: W300000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #32556)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[31084] process terminated
+worker[none:31084] exit with status 64000
+PHP Notice:  Undefined index: W0043000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0043000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #3793)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[15267] process terminated
+worker[none:15267] exit with status 64000
+PHP Notice:  Undefined index: W0043001X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0043001X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #13884)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[8517] process terminated
+worker[none:8517] exit with status 64000
+PHP Notice:  Undefined index: W0043001X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0043001X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1414)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[29733] process terminated
+worker[none:29733] exit with status 64000
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: W0043001X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0043001X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #7110)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[11267] process terminated
+worker[none:11267] exit with status 64000
+PHP Notice:  Undefined index: W0043001X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0043001X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #33)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[25927] process terminated
+worker[none:25927] exit with status 64000
+PHP Notice:  Undefined index: W0043001X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0043001X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #43)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[26253] process terminated
+worker[none:26253] exit with status 64000
+PHP Notice:  Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #23348)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[26317] process terminated
+worker[none:26317] exit with status 64000
+PHP Notice:  Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #3425)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[6221] process terminated
+worker[none:6221] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2844)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[6442] process terminated
+worker[none:6442] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[6561] process terminated
+worker[none:6561] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[6562] process terminated
+worker[none:6562] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[6563] process terminated
+worker[none:6563] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #53)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[6564] process terminated
+worker[none:6564] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[6565] process terminated
+worker[none:6565] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #48)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[6566] process terminated
+worker[none:6566] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #49)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[6567] process terminated
+worker[none:6567] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #45)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[6568] process terminated
+worker[none:6568] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[6569] process terminated
+worker[none:6569] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #52)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[6570] process terminated
+worker[none:6570] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #53)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[6571] process terminated
+worker[none:6571] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #54)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[6572] process terminated
+worker[none:6572] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #67)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[6573] process terminated
+worker[none:6573] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #66)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[6574] process terminated
+worker[none:6574] exit with status 64000
+PHP Notice:  Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #8706)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[6575] process terminated
+worker[none:6575] exit with status 64000
+PHP Notice:  Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #4389)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[8128] process terminated
+worker[none:8128] exit with status 64000
+PHP Notice:  Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #4391)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[8352] process terminated
+worker[none:8352] exit with status 64000
+PHP Notice:  Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #8734)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[8514] process terminated
+worker[none:8514] exit with status 64000
+PHP Notice:  Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #4392)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[9223] process terminated
+worker[none:9223] exit with status 64000
+PHP Notice:  Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #4392)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[9397] process terminated
+worker[none:9397] exit with status 64000
+PHP Notice:  Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1082)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[9554] process terminated
+worker[none:9554] exit with status 64000
+PHP Notice:  Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1280)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[10127] process terminated
+worker[none:10127] exit with status 64000
+PHP Notice:  Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #4338)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[10175] process terminated
+worker[none:10175] exit with status 64000
+PHP Notice:  Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0044000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1813)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[10413] process terminated
+worker[none:10413] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1219)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[13057] process terminated
+worker[none:13057] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #68)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[13160] process terminated
+worker[none:13160] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #69)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[13161] process terminated
+worker[none:13161] exit with status 64000
+PHP Notice:  Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W300003X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #142)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[13162] process terminated
+worker[none:13162] exit with status 64000
+PHP Notice:  Undefined index: W0044001X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0044001X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1903)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[13169] process terminated
+worker[none:13169] exit with status 64000
+PHP Notice:  Undefined index: W0044001X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W0044001X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #4393)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[13238] process terminated
+worker[none:13238] exit with status 64000
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #741)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[13461] process terminated
+worker[none:13461] exit with status 64000
+PHP Notice:  Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #108)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[5338] process terminated
+worker[none:5338] exit with status 64000
+PHP Notice:  Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #416)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[5516] process terminated
+worker[none:5516] exit with status 64000
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #4754)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[6451] process terminated
+worker[none:6451] exit with status 64000
+PHP Notice:  Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #843)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[7628] process terminated
+worker[none:7628] exit with status 64000
+PHP Notice:  Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #106)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[9249] process terminated
+worker[none:9249] exit with status 64000
+PHP Notice:  Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #908)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[9337] process terminated
+worker[none:9337] exit with status 64000
+PHP Notice:  Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #138)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[11186] process terminated
+worker[none:11186] exit with status 64000
+PHP Notice:  Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #434)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[11388] process terminated
+worker[none:11388] exit with status 64000
+PHP Notice:  Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+
+Notice: Undefined index: W100000X in /home/tanlie/daping-socket/tcp_server.php on line 168
+Error: Call to a member function send() on null in /home/tanlie/daping-socket/tcp_server.php:176
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 /home/tanlie/daping-socket/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"cmd":"xt","de...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #899)
+#3 /home/tanlie/daping-socket/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#5 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1452): Workerman\Worker->run()
+#6 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#8 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#9 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#10 /home/tanlie/daping-socket/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#11 /home/tanlie/daping-socket/tcp_server.php(227): Workerman\Worker::runAll()
+#12 {main}
+Worker[12184] process terminated
+worker[none:12184] exit with status 64000
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+PHP Notice:  Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
+
+Notice: Undefined index: device_id in /home/tanlie/daping-socket/tcp_server.php on line 34
